@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/payments/send
+Content-Type: application/json
+
+{
+  "senderId": "user10",
+  "recipientId": "user2",
+  "amount": -10,
+  "idempotencyKey": "3"
+}
+
+###
